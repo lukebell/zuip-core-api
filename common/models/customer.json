@@ -1,0 +1,42 @@
+{
+    "name": "Customer",
+    "plural": "Customers",
+    "base": "PersistedModel",
+    "properties": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "surName": {
+            "type": "string",
+            "required": true
+        },
+        "i": {
+            "type": "number",
+            "required": true
+        },
+        "email": {
+            "type": "string",
+            "required": true
+        },
+        "userStatus": {
+            "type": "object"
+        },
+        "preferences": {
+            "type": [
+                "string"
+            ]
+        },
+        "created": {
+            "type": "date",
+            "required": true
+        },
+        "updated": {
+            "type": "date"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": []
+}

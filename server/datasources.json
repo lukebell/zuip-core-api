@@ -1,0 +1,33 @@
+{
+    "db": {
+        "name": "db",
+        "connector": "memory"
+    },
+    "mongodb_dev": {
+        "host": "127.0.0.1",
+        "port": 27017,
+        "database": "devDB",
+        "username": "",
+        "password": "",
+        "name": "mongodb_dev",
+        "connector": "mongodb"
+    },
+    "mongodb_staging": {
+        "host": "127.0.0.1",
+        "port": 27017,
+        "database": "stagingDB",
+        "username": "",
+        "password": "",
+        "name": "mongodb_staging",
+        "connector": "mongodb"
+    },
+    "mongodb_prod": {
+        "host": "127.0.0.1",
+        "port": 27017,
+        "database": "prodDB",
+        "username": "",
+        "password": "",
+        "name": "mongodb_prod",
+        "connector": "mongodb"
+    }
+}
